@@ -17,5 +17,53 @@ public class Main {
         System.out.println("Пищем дз");
         System.out.println("Делаем commit & push");
         System.out.println("Переходи в gitHub");
+
+        //задача 1
+        System.out.println("задача 1");
+        int[] numbers = new int[3];
+        numbers [0] = 1;
+        numbers [1] = 2;
+        numbers [2] = 3;
+        double [] fractions = {1.57, 7.654, 9.986};
+        double[] fractions1 = {11.7, 71.64, 19.98};
+        //задача 2
+        System.out.println("Задача 2");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ,");
+        }
+        System.out.println(" ") ;
+
+        for (int i = 0; i < fractions.length; i++) {
+            System.out.print(fractions[i] + " ,");
+        }
+        System.out.println(" ");
+        for (int i = 0; i < fractions1.length; i++) {
+            System.out.print(fractions1[i] + " ,");
+        }
+        System.out.println(" ");
+
+        //задача 3
+        System.out.println("Задача 3");
+        for (int i = 2; i >= 0; i= i - 1) {
+            System.out.print(numbers[i] + ", ");
+        }
+        System.out.println(" ") ;
+
+        for (int i = 2; i >= 0; i= i - 1) {
+            System.out.print(fractions[i] + ", ");
+        }
+        System.out.println(" ");
+        for (int i = 2; i >= 0; i= i - 1) {
+            System.out.print(fractions1[i] + ", ");
+        }
+        System.out.println(" ");
+        //задача 4
+        System.out.println("Задача 4");
+        numbers [0] = 1 + 1;
+        numbers [1] = 2;
+        numbers [2] = 3 + 1;
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + ", ");
+        }
     }
 }
