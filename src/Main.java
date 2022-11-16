@@ -57,7 +57,7 @@ public class Main {
             System.out.print(fractions1[i] + ", ");
         }
         System.out.println(" ");
-        //задача 4
+        //задача 1
         System.out.println("Задача 4");
         numbers [0] = 1 + 1;
         numbers [1] = 2;
