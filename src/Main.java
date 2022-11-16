@@ -14,5 +14,8 @@ public class Main {
         for (int i = 0; i < weights.length; i++) {
             System.out.println(weights[i]);
         }
+        System.out.println("Пищем дз");
+        System.out.println("Делаем commit & push");
+        System.out.println("Переходи в gitHub");
     }
 }
